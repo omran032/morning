@@ -1,0 +1,430 @@
+
+    
+        #r {
+            font-family: 'Cairo', sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+
+         #oa  {
+            border-collapse: collapse;
+            width: 90%;
+            margin: 20px auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        #oa{
+            text-align: center;
+        }
+        #dd,
+        #om22 {
+            direction: rtl;
+            text-align: right;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        #u{
+            color: blue;
+            text-decoration: none;
+            text-decoration: underline;
+        }
+
+        #y {
+            display: block;
+            margin: 0 auto;
+            width: 100px;
+            height: auto;
+        }
+ 
+
+#oa 
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+#oa
+th{
+    text-align: center;
+    background-color: hwb(187 36% 6%);
+}
+#oa 
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+#ca{
+
+    text-align: right ;
+}
+
+
+#ty{
+    font-family: 'Cairo', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    direction: rtl;
+}
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 50px 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        .about-content {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .about-text,
+        .contact-info {
+            width: 45%;
+            padding: 20px;
+            background-color: hwb(187 36% 6%);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .about-text p {
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .contact-info ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .contact-info li {
+            margin-bottom: 15px;
+        }
+
+        .contact-info li span {
+            font-weight: bold;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .about-content {
+                flex-direction: column;
+            }
+
+            .about-text,
+            .contact-info {
+                width: 90%;
+            }
+        }
+        
+        .h {
+            font-family: 'Cairo', sans-serif;
+            text-align: right;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #dddddd;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            text-align: center;
+            background-color: hwb(187 36% 6%);
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .button-container {
+            text-align: center;
+            margin-top: 10px;
+        }
+        .details-button {
+            background-color: #5cc9d8; /* Green */
+            border: none;
+            color: white;
+            padding: 8px 16px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .follow-button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #008CBA; /* Blue */
+            color: white;
+            border: none;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            direction: rtl;
+            text-align: center; 
+          }
+          
+          #oa {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 20px;
+          }
+          
+                .oa th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+          }
+          
+                 .oa th {
+            background-color: #f2f2f2;
+          }
+       
+          button {
+            background-color: #04c5e7; 
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+          }
+          #confirmationMessage {
+            background-color: #dff0d8; 
+            border: 1px solid #d6e9c6; 
+            padding: 15px;
+            margin-bottom: 20px;
+          } 
+
+          #goToPage2,
+          #goToPage3,
+          #goToPage1 {
+            background-color: #04c5e7; 
+            border: none;  
+            color: rgb(8, 8, 8); 
+            padding: 10px 20px; 
+            text-align: center;  
+            text-decoration: none;  
+            display: inline-block;  
+            font-size: 16px;  
+            cursor: pointer;  
+            margin: 10px; 
+            border-radius: 5px; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+            transition: box-shadow 0.3s ease; 
+          }
+          
+          button:hover { 
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); 
+          }
+          .details-hidden {
+            display: none;
+          }
+          
+          .details {
+            border: 1px solid #ccc;
+            padding: 10px;
+          }
+          
+          .details-button {
+            background-color: transparent; /* شفاف */
+            border: 2px solid #4CAF50; /* لون حدود */
+            width: 30px; /* عرض مربع */
+            height: 30px; /* ارتفاع مربع */
+            cursor: pointer;
+            border-radius: 5px; /* زوايا دائرية */
+          }
+          
+          .details-button.active { /* عند الضغط على الزر */
+            background-color: #0491e2; /* لون الخلفية */
+            border-color: #4CAF50; /* لون الحدود */
+          }
+          
+.Properties {
+    position: relative;
+    margin: 0 auto;
+    background-color: var(--sec-color);
+
+}
+
+.Properties .contener {
+    padding: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 95%;
+}
+
+.Properties table thead tr th {
+    text-align: center;
+}
+
+.Properties table tbody tr td {
+    text-align: center;
+
+}
+
+.Properties table input {
+    height: 18px;
+    width: 18px;
+}
+
+.Properties table .click {
+    color: var(--maine-color);
+    cursor: pointer;
+}
+
+.Properties button {
+    color: black;
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+    width: 100px;
+    background-color: var(--maine-color);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.Properties table td:hover {
+    transform: scale(1.0);
+    background-color: var(--sec-color);
+
+}
+
+.Properties table {
+    color: var(--text-color);
+
+    border-collapse: collapse;
+    width: 100%;
+    font-size: large;
+    margin: 20px 0 80px 0;
+}
+
+.Properties table img {
+    width: 200px;
+    margin: 0 20px;
+}
+
+.Properties table th,
+td {
+    text-align: right;
+    padding: 10px 3px;
+    transition: 1.5s;
+
+}
+
+td:hover {
+    transform: scale(1.1);
+    background-color: var(--maine-color-alt);
+
+}
+
+th {
+    background-color: var(--maine-color);
+    color: #1b1616;
+}
+
+.form {
+    position: absolute;
+    top: 20%;
+    max-width: 100%;
+    left: 100px;
+    transition: 1s;
+    display: none;
+    z-index: 10;
+}
+
+.form .contener {
+    background-color: skyblue;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.form .box {
+    width: 50%;
+
+}
+
+.myForm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.group {
+    flex: 40%;
+}
+
+.inp {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+
+.btn {
+    border: none;
+    border-radius: 10px;
+    width: 50%;
+    font-size: 18px;
+
+
+
+}
+
+.cancelbtn {
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    width: 15px;
+    border: none;
+    padding: 2px 10px;
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    z-index: 10;
+
+}
+
+.worong {
+    border-color: red;
+}
+
+#btnsub {
+    background-color: white;
+}
+
+.hid {
+    display: none;
+}
+
+   
+
+
+
